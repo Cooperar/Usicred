@@ -1,0 +1,151 @@
+/* Define as fontes padrão para a página */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Estiliza o header */
+header {
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #a0a0a0;
+  
+}
+
+
+header img {
+  max-width: 25%;
+  margin-bottom: auto;
+}
+
+header p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Estiliza o botão */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Estiliza as seções */
+section {
+  padding: 100px 0;
+}
+
+section h3 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Estiliza o footer */
+footer {
+  padding: 50px 0;
+  background-color: #f2f2f2;
+  color: #888;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer img {
+  max-width: 15%;
+  margin-bottom: 20px;
+}
+
+/* Estiliza a seção "Sobre a cooperativa" */
+#sobre {
+  margin-top: 50px;
+}
+
+#sobre p {
+  margin-bottom: 20px;
+}
+
+
+.carousel-item img {
+  height: 500px; /* altura desejada */
+  width: auto; /* largura automática para manter proporção */
+}
+
+
+
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.carousel-caption h5,
+.carousel-caption p,
+.carousel-caption button {
+  margin: 0;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+}
+
+.carousel-caption button {
+  font-size: 1rem;
+  padding: 8px 16px;
+}
+
+
+
+/* estilos para dispositivos com largura de tela menor ou igual a 576 pixels, como celulares */
+@media (max-width: 576px) {
+  /* ajuste o tamanho da imagem do logotipo */
+  img {
+    width: 50%;
+  }
+}
+
+/* estilos para dispositivos com largura de tela maior que 576 pixels, como tablets e desktops */
+@media (min-width: 577px) {
+  /* ajuste a largura do contêiner */
+  .container {
+    max-width: 960px;
+  }
+  
+  /* ajuste o tamanho da imagem do logotipo */
+  img {
+    width: 30%;
+  }
+  
+  /* ajuste o tamanho do texto do cabeçalho */
+  .h5 {
+    font-size: 1.5rem;
+  }
+  
+  /* ajuste a largura do botão do carrossel */
+  .btn-primary {
+    width: 200px;
+  }
+}
